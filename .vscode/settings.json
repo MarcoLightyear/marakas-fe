@@ -1,4 +1,13 @@
 {
     "IDX.aI.enableInlineCompletion": true,
-    "IDX.aI.enableCodebaseIndexing": true
+    "IDX.aI.enableCodebaseIndexing": true,
+    "tailwindCSS.includeLanguages": {
+        "html": "html",
+        "javascript": "javascript",
+        "typescript": "typescript",
+        "css": "css"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    }
 }
