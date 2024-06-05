@@ -6,8 +6,9 @@ const styles = {
     "imageWidth" : 550,
     "imageHeight" : 500,
     "containerStyles" : "grid grid-cols-2 grid-rows-1",
-    "menuStyles" : "grid grid-cols-3 font-bold text-navbar-blue tracking-widest",
-    "buttonStyles" : "bg-pink text-yellow rounded-3xl drop-shadow-md mx-5 text-xl"
+    "menuStyles" : "grid grid-cols-3 font-bold text-navbar-blue tracking-widest justify-center",
+    "buttonStyles" : "bg-pink text-yellow rounded-3xl drop-shadow-md mx-7 text-xl",
+    "linksStyles" : "content-center text-center"
 }
 
 export default function NavigationHeader() {
@@ -20,10 +21,10 @@ export default function NavigationHeader() {
                 height={styles.imageHeight}
             />
             <div className={styles.menuStyles}>
-                <h2 className="content-center text-right">
+                <h2 className={styles.linksStyles}>
                     <a href="">NOSOTROS</a>
                 </h2>
-                <h2 className="content-center text-center">
+                <h2 className={styles.linksStyles}>
                     <a href="">COLECCIONES</a>
                 </h2>
                 <Button styles={styles.buttonStyles} text="COMPRAR"/>
