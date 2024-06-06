@@ -2,12 +2,20 @@
 module.exports = {
   content: [
     "./components/**/*.{js,jsx,ts,tsx}",
+    "./pages/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     colors: {
-      'navbar-blue' : "#0742AA",
+      'blue' : "#0742AA",
       'pink' : "#D31975",
-      'yellow' : "#ECE316"
+      'yellow' : "#ECE316",
+      'white' : "#FFFFFF",
+      'dark-yellow' : "#FFDE00"
+    },
+    fontFamily: {
+      'bungee': ['Bungee', 'sans-serif'],
+      'francois-one': ['"Francois One"', 'sans-serif'],
+      'fredoka': ["Fredoka", 'sans-serif'],
     },
     extend: {},
   },

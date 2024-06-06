@@ -5,13 +5,13 @@ import Button from "./Button";
 const styles = {
     "imageWidth" : 550,
     "imageHeight" : 500,
-    "containerStyles" : "grid grid-cols-2 grid-rows-1",
-    "menuStyles" : "grid grid-cols-3 font-bold text-navbar-blue tracking-widest justify-center",
+    "containerStyles" : "grid grid-cols-2 grid-rows-1 font-francois-one p-5",
+    "menuStyles" : "grid grid-cols-3 font-bold text-blue tracking-widest justify-center",
     "buttonStyles" : "bg-pink text-yellow rounded-3xl drop-shadow-md mx-7 text-xl",
     "linksStyles" : "content-center text-center"
 }
 
-export default function NavigationHeader() {
+const NavigationHeader: React.FC = () => {
     return (
         <div className={styles.containerStyles}>
             <Image
@@ -29,7 +29,8 @@ export default function NavigationHeader() {
                 </h2>
                 <Button styles={styles.buttonStyles} text="COMPRAR"/>
             </div>
-            
         </div>
-    )
-}
+    );
+};
+
+export default NavigationHeader;
