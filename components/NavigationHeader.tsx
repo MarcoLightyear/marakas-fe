@@ -27,7 +27,7 @@ const NavigationHeader: React.FC = () => {
                 <h2 className={styles.linksStyles}>
                     <a href="">COLECCIONES</a>
                 </h2>
-                <Button styles={styles.buttonStyles} text="COMPRAR"/>
+                <Button styles={styles.buttonStyles} text="COMPRAR" redirectTo="/collections"/>
             </div>
         </div>
     );

@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Francois+One&family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Francois+One&family=Fredoka:wght@300..700&display=swap&family=Blinker&display=swap&family=Podkova:wght@400..800&display=swap?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+  font-family: 'Porter';
+  src: url(../fonts/porter-sans-inline-block.ttf);
+}
 
 @tailwind base;
 @tailwind components;

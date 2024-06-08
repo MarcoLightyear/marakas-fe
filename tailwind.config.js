@@ -16,6 +16,10 @@ module.exports = {
       'bungee': ['Bungee', 'sans-serif'],
       'francois-one': ['"Francois One"', 'sans-serif'],
       'fredoka': ["Fredoka", 'sans-serif'],
+      'blinker' : ["Blinker", 'sans-serif'],
+      'porter' : ["Porter", 'sans-serif'],
+      'podkova' : ["Podkova", 'sans-serif'],
+      'cantarell' : ["Cantarell", 'sans-serif']
     },
     extend: {},
   },
